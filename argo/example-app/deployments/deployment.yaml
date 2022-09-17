@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: example-deploy
   labels:
-    app: example-app
+    app: mytechtalk-app
   annotations:
 spec:
   selector:
     matchLabels:
-      app: example-app
+      app: mytechtalk-app
   replicas: 2
   strategy:
     type: RollingUpdate
@@ -18,7 +18,7 @@ spec:
   template:
     metadata:
       labels:
-        app: example-app
+        app: mytechtalk-app
     spec:
       containers:
       - name: example-app
