@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/aashu-anblicks/kxdemo.git
+    repoURL: https://github.com/aashu-anblicks/kxsession.git
     targetRevision: HEAD
     path: argo/example-app
     directory:
